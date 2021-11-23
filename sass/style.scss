@@ -1,0 +1,72 @@
+@import './reset';
+@import './colors';
+
+body {
+	position: relative;
+	font-family: 'Comfortaa', cursive;
+	background-color: #444;
+}
+
+nav {
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: rgba(0, 0, 0, 0.6);
+
+	.navbar-collapse {
+		font-size: 0;
+		border-left: 3px solid $main-color;
+		padding-left: 10px;
+	}
+
+	//remove shadow from button
+	.navbar-toggler:focus {
+		box-shadow: 0 0 0 0px;
+	}
+
+	.navbar-brand {
+		color: $font-color;
+		transition: color 0.4s;
+	}
+
+	.nav-link {
+		font-size: 16px;
+		color: $font-color;
+	}
+
+	.nav-link:hover,
+	.navbar-brand:hover {
+		color: $main-color;
+	}
+
+	.navbar-brand:hover > .site-title {
+		color: $font-color;
+	}
+
+	.fa-cut {
+		font-size: 30px;
+		color: $main-color;
+	}
+
+	.site-title {
+		font-size: 110%;
+		color: $main-color;
+		letter-spacing: 2px;
+		transition: color 0.4s;
+	}
+
+	.fa-bars {
+		padding: 10px;
+		font-size: 30px;
+		color: $font-color;
+		transition: color 0.4s;
+	}
+
+	.fa-bars:hover {
+		color: $main-color;
+	}
+
+	//scrollspy
+	.active {
+		color: $main-color;
+	}
+}

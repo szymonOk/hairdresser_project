@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACC,GADE,CACF,SAAS,CAAC;EACT,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,IAAI;CACb;;AAJF,AAMC,GANE,CAMF,OAAO,CAAC;EACP,SAAS,EAAE,IAAI;CACf;;AARF,AAUC,GAVE,CAUF,aAAa,CAAC;EACb,SAAS,EAAE,IAAI;CACf",
+    "sources": [
+        "../sass/extra_large.scss"
+    ],
+    "names": [],
+    "file": "extra_large.css"
+}

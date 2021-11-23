@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  font-family: 'Comfortaa', cursive;
+  background-color: #444;
+}
+
+nav {
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+nav .navbar-collapse {
+  font-size: 0;
+  border-left: 3px solid #ffd000;
+  padding-left: 10px;
+}
+
+nav .navbar-toggler:focus {
+  -webkit-box-shadow: 0 0 0 0px;
+          box-shadow: 0 0 0 0px;
+}
+
+nav .navbar-brand {
+  color: ghostwhite;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+}
+
+nav .nav-link {
+  font-size: 16px;
+  color: ghostwhite;
+}
+
+nav .nav-link:hover,
+nav .navbar-brand:hover {
+  color: #ffd000;
+}
+
+nav .navbar-brand:hover > .site-title {
+  color: ghostwhite;
+}
+
+nav .fa-cut {
+  font-size: 30px;
+  color: #ffd000;
+}
+
+nav .site-title {
+  font-size: 110%;
+  color: #ffd000;
+  letter-spacing: 2px;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+}
+
+nav .fa-bars {
+  padding: 10px;
+  font-size: 30px;
+  color: ghostwhite;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+}
+
+nav .fa-bars:hover {
+  color: #ffd000;
+}
+
+nav .active {
+  color: #ffd000;
+}
+/*# sourceMappingURL=style.css.map */
