@@ -1,3 +1,7 @@
+.site-title {
+	font-size: 120%;
+}
+
 nav {
 	.nav-link {
 		font-size: 18px;
@@ -10,5 +14,20 @@ nav {
 
 	.navbar-brand {
 		font-size: 22px;
+	}
+}
+
+header {
+	.hero-img {
+		background-image: url('../img/banner1920.jpg');
+		.hero-text {
+			h1 {
+				font-size: 36px;
+			}
+
+			p {
+				font-size: 20px;
+			}
+		}
 	}
 }

@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="./css/medium.css">
     <link rel="stylesheet" media="screen and (min-width: 992px)" href="./css/large.css">
     <link rel="stylesheet" media='screen and (min-width: 1200px)' href="./css/extra_large.css">
     <script src="https://kit.fontawesome.com/5bcf0b1944.js" crossorigin="anonymous"></script>
@@ -22,7 +23,7 @@
 <body data-bs-spy="scroll" data-bs-target="#navbar">
 
     <!-- NAVIGATION -->
-    <nav id="navbar" class="navbar navbar-expand-lg position-sticky top-0">
+    <nav id="navbar" class="navbar navbar-expand-lg position-fixed top-0 w-100 py-3">
         <div class="container-md">
             <a class="navbar-brand" href="#"><i class="fas fa-cut"></i>vinn<span class="site-title">cenzo</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -42,13 +43,29 @@
         </div>
     </nav>
 
+    <!-- HEADER -->
+    <header>
+        <div class="hero-img">
+            <div class="hero-bg"></div>
+            <div class="hero-text">
+                <h1>witamy u vinn<span class="site-title">cenzo</span></h1>
+                <p>W miejscu gdzie znajdziesz najlepsze fryzury w mieście!</p>
+                <a href="#aboutus" type="button" class="btn btn-outline-light">Poznaj nas!</a>
+            </div>
+            <a href="#aboutus"><i class="fas fa-chevron-down"></i></a>
 
+        </div>
+    </header>
+
+    <div style="height:100vh"></div>
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
