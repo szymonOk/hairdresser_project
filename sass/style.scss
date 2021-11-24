@@ -1,10 +1,27 @@
 @import './reset';
 @import './colors';
 
+html {
+	scroll-padding-top: 91.6px;
+}
+
 body {
 	position: relative;
 	font-family: 'Comfortaa', cursive;
 	background-color: #444;
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.underline {
+	margin: 0 auto 40px;
+	width: 70px;
+	height: 5px;
+	border-radius: 20px;
+	background-color: $main-color;
 }
 
 .site-title {
@@ -112,7 +129,7 @@ header {
 				text-transform: uppercase;
 				padding-bottom: 15px;
 			}
-			
+
 			p {
 				font-size: 16px;
 				padding-bottom: 15px;
@@ -133,5 +150,62 @@ header {
 			font-size: 34px;
 			color: $font-color;
 		}
+	}
+}
+
+main {
+	//first about us section
+	.aboutus {
+		.cards {
+			div {
+				padding: 20px 50px;
+				transition: color 0.3s;
+			}
+
+			div:hover {
+				color: $main-color;
+			}
+		}
+	}
+
+	//second about us section
+	.aboutus-hero-img {
+		position: relative;
+		background-image: url('../img/about_640.jpg');
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		z-index: 0;
+
+		.container {
+			z-index: 10;
+			color: $font-color;
+
+			.hero-cards {
+				div {
+					padding: 20px 50px;
+				}
+			}
+		}
+	}
+
+	.aboutus-shadow {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.75);
+		z-index: -10;
+	}
+
+	.fas {
+		font-size: 28px;
+	}
+	.aboutus-card-title {
+		text-transform: uppercase;
+		font-size: 24px;
+	}
+
+	.aboutus-card-text {
+		font-size: 18px;
 	}
 }

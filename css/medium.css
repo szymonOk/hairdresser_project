@@ -5,4 +5,9 @@ header .hero-img .hero-text h1 {
 header .hero-img .hero-text p {
   font-size: 18px;
 }
+
+main .card-fix {
+  -webkit-transform: translateX(-25px);
+          transform: translateX(-25px);
+}
 /*# sourceMappingURL=medium.css.map */

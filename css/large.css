@@ -1,4 +1,13 @@
+html {
+  scroll-padding-top: 77.5px;
+}
+
 nav .navbar-collapse {
   border: none;
+}
+
+main .card-fix {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
 }
 /*# sourceMappingURL=large.css.map */

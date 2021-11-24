@@ -1,5 +1,15 @@
+html{
+	scroll-padding-top: 77.5px;
+}
+
 nav{
     .navbar-collapse{
         border: none;
     }
+}
+
+main{
+	.card-fix {
+		transform: translateX(0px);
+	}
 }
