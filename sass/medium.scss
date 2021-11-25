@@ -12,8 +12,14 @@ header {
 	}
 }
 
-main{
+main {
 	.card-fix {
 		transform: translateX(-25px);
+	}
+
+	.portfolio {
+		.card-group {
+			flex-direction: row;
+		}
 	}
 }

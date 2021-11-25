@@ -10,4 +10,11 @@ main .card-fix {
   -webkit-transform: translateX(-25px);
           transform: translateX(-25px);
 }
+
+main .portfolio .card-group {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
 /*# sourceMappingURL=medium.css.map */

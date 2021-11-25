@@ -156,6 +156,7 @@ header {
 main {
 	//first about us section
 	.aboutus {
+		background-color: $bg-color;
 		.cards {
 			div {
 				padding: 20px 50px;
@@ -207,5 +208,130 @@ main {
 
 	.aboutus-card-text {
 		font-size: 18px;
+	}
+
+	//portfolio section
+	.portfolio {
+		background-color: $bg-color;
+		//desktop version
+		.carousel {
+			width: 90%;
+			margin: 0 auto;
+		}
+		.carousel-item {
+			position: relative;
+			height: 480px;
+
+			.carousel-caption {
+				position: absolute;
+				left: 0;
+				right: 0;
+				background-color: rgba(0, 0, 0, 0.8);
+				padding: 35px 0;
+			}
+		}
+
+		.carousel-indicators {
+			padding-bottom: 20px;
+		}
+
+		.carousel-control-prev-icon,
+		.carousel-control-next-icon {
+			background: none;
+		}
+
+		.arrows {
+			font-size: 32px;
+			color: $main-color;
+		}
+
+		//mobile version
+		.card-group {
+			display: flex;
+			flex-flow: column wrap;
+			.card {
+				margin: 10px 10px;
+				text-align: center;
+			}
+		}
+	}
+
+	.prices {
+		.container > p:first-of-type {
+			margin-top: 25px;
+			font-size: 18px;
+		}
+
+		.container > p {
+			text-align: center;
+		}
+
+		span {
+			font-weight: bold;
+			text-transform: uppercase;
+			letter-spacing: 3.5px;
+			color: $main-color;
+		}
+
+		.price-contact {
+			text-decoration: none;
+			color: $main-color;
+		}
+
+		.price-contact:hover {
+			color: rgb(124, 9, 124);
+		}
+
+		.prices-box {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-evenly;
+
+			.btn {
+				margin-top: 20px;
+				letter-spacing: 2.5px;
+				padding: 10px 20px;
+			}
+
+			.prices-items {
+				width: 350px;
+				text-align: center;
+				margin: 20px;
+				padding: 30px 10px;
+				background-color: #fff;
+				box-shadow: 5px 5px 5px rgba(49, 49, 49, .4);
+				transition: transform 0.3s;
+
+				.btn-primary {
+					background-color: $main-color;
+					border: $main-color;
+				}
+
+				.btn-primary:hover {
+					background-color: rgb(124, 9, 124);
+					border: rgb(124, 9, 124);
+				}
+
+				hr {
+					width: 80%;
+					margin-left: auto;
+					margin-right: auto;
+				}
+
+				p:first-of-type {
+					font-weight: bold;
+					font-size: 18px;
+				}
+
+				h4 {
+					text-transform: uppercase;
+					color: $main-color;
+				}
+			}
+
+			.prices-items:hover {
+				transform: scale(1.05);
+			}
+		}
 	}
 }

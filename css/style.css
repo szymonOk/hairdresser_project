@@ -172,6 +172,10 @@ header .hero-img .fa-chevron-down {
   color: ghostwhite;
 }
 
+main .aboutus {
+  background-color: #ececec;
+}
+
 main .aboutus .cards div {
   padding: 20px 50px;
   -webkit-transition: color 0.3s;
@@ -219,5 +223,143 @@ main .aboutus-card-title {
 
 main .aboutus-card-text {
   font-size: 18px;
+}
+
+main .portfolio {
+  background-color: #ececec;
+}
+
+main .portfolio .carousel {
+  width: 90%;
+  margin: 0 auto;
+}
+
+main .portfolio .carousel-item {
+  position: relative;
+  height: 480px;
+}
+
+main .portfolio .carousel-item .carousel-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 35px 0;
+}
+
+main .portfolio .carousel-indicators {
+  padding-bottom: 20px;
+}
+
+main .portfolio .carousel-control-prev-icon,
+main .portfolio .carousel-control-next-icon {
+  background: none;
+}
+
+main .portfolio .arrows {
+  font-size: 32px;
+  color: #d10382;
+}
+
+main .portfolio .card-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+
+main .portfolio .card-group .card {
+  margin: 10px 10px;
+  text-align: center;
+}
+
+main .prices .container > p:first-of-type {
+  margin-top: 25px;
+  font-size: 18px;
+}
+
+main .prices .container > p {
+  text-align: center;
+}
+
+main .prices span {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+  color: #d10382;
+}
+
+main .prices .price-contact {
+  text-decoration: none;
+  color: #d10382;
+}
+
+main .prices .price-contact:hover {
+  color: #7c097c;
+}
+
+main .prices .prices-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+main .prices .prices-box .btn {
+  margin-top: 20px;
+  letter-spacing: 2.5px;
+  padding: 10px 20px;
+}
+
+main .prices .prices-box .prices-items {
+  width: 350px;
+  text-align: center;
+  margin: 20px;
+  padding: 30px 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 5px 5px 5px rgba(49, 49, 49, 0.4);
+          box-shadow: 5px 5px 5px rgba(49, 49, 49, 0.4);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+main .prices .prices-box .prices-items .btn-primary {
+  background-color: #d10382;
+  border: #d10382;
+}
+
+main .prices .prices-box .prices-items .btn-primary:hover {
+  background-color: #7c097c;
+  border: #7c097c;
+}
+
+main .prices .prices-box .prices-items hr {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main .prices .prices-box .prices-items p:first-of-type {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+main .prices .prices-box .prices-items h4 {
+  text-transform: uppercase;
+  color: #d10382;
+}
+
+main .prices .prices-box .prices-items:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 /*# sourceMappingURL=style.css.map */
