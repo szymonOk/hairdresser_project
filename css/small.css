@@ -1,1 +1,13 @@
-/* No CSS *//*# sourceMappingURL=small.css.map */
+main .team .container .team-cards .card img {
+  height: 250px;
+}
+
+main .team .container .team-cards .card .card-body {
+  font-size: 18px;
+  height: 160px;
+}
+
+main .team .container .team-cards .card .card-body h5 {
+  font-size: 24px;
+}
+/*# sourceMappingURL=small.css.map */

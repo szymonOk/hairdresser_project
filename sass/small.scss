@@ -1,0 +1,21 @@
+main {
+	.team {
+		.container {
+			.team-cards {
+				.card {
+					img {
+						height: 250px;
+					}
+
+                    .card-body{
+                        font-size: 18px;
+						height: 160px;
+                        h5{
+                            font-size: 24px;
+                        }
+                    }
+				}
+			}
+		}
+	}
+}

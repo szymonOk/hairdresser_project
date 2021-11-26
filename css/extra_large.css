@@ -34,4 +34,8 @@ header .hero-img .hero-text p {
 main .aboutus-hero-img {
   background-image: url("../img/about_1920.jpg");
 }
+
+main .contact {
+  background-image: url("../img/contact_1920.jpg");
+}
 /*# sourceMappingURL=extra_large.css.map */
