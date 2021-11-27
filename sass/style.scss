@@ -1,5 +1,6 @@
 @import './reset';
 @import './colors';
+@import './animate';
 
 html {
 	scroll-padding-top: 91.6px;
@@ -138,15 +139,14 @@ header {
 			.btn-outline-light {
 				font-weight: bold;
 				text-transform: uppercase;
-				color: $main-color;
 			}
 		}
 
 		.fa-chevron-down {
 			position: absolute;
-			bottom: 25px;
-			left: 50%;
-			transform: translateX(-50%);
+			padding: 20px 10px;
+			bottom: 50px;
+			left: calc(50% - 20px);
 			font-size: 34px;
 			color: $font-color;
 		}
@@ -160,7 +160,6 @@ main {
 		.cards {
 			div {
 				padding: 20px 50px;
-				transition: color 0.3s;
 			}
 
 			div:hover {
@@ -287,9 +286,10 @@ main {
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: space-evenly;
+			margin-bottom: 40px;
 
 			.btn {
-				margin-top: 20px;
+				margin-top: 10px;
 				letter-spacing: 2.5px;
 				padding: 10px 20px;
 			}
@@ -297,11 +297,10 @@ main {
 			.prices-items {
 				width: 350px;
 				text-align: center;
-				margin: 20px;
-				padding: 30px 10px;
+				padding: 25px 10px;
 				background-color: #fff;
 				box-shadow: 5px 5px 5px rgba(49, 49, 49, 0.4);
-				transition: transform 0.3s;
+				transition: transform 0.3s 0.01s;
 
 				.btn-primary {
 					background-color: $main-color;
@@ -384,6 +383,12 @@ main {
 						i {
 							font-size: 20px;
 							color: $main-color;
+							transition: color 0.3s, transform 0.2s;
+						}
+
+						i:hover {
+							transform: scale(1.2);
+							color: rgb(146, 146, 146);
 						}
 					}
 				}
@@ -434,7 +439,7 @@ main {
 		z-index: 0;
 		color: $font-color;
 
-		.underline{
+		.underline {
 			background-color: $font-color;
 		}
 
@@ -450,7 +455,7 @@ main {
 		.contact-us {
 			display: flex;
 			align-items: center;
-			
+
 			.contact-item {
 				padding: 30px;
 
@@ -471,7 +476,7 @@ main {
 					a {
 						padding: 0 20px;
 						color: $font-color;
-						transition: color .4s;
+						transition: color 0.4s;
 					}
 
 					a:hover {

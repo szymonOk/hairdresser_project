@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/@tabler/icons@latest/iconfont/tabler-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" media="screen and (min-width: 576px)" href="./css/small.css">
     <link rel="stylesheet" media="screen and (min-width: 768px)" href="./css/medium.css">
@@ -51,11 +52,12 @@
         <div class="hero-img">
             <div class="hero-bg"></div>
             <div class="hero-text">
-                <h1>witamy u vinn<span class="site-title">cenzo</span></h1>
-                <p>W miejscu gdzie znajdziesz najlepsze fryzury w mieście!</p>
-                <a href="#aboutus" type="button" class="btn btn-outline-light">Poznaj nas!</a>
+                <h1 data-aos="fade-up" data-aos-delay="200">witamy u vinn<span class="site-title">cenzo</span></h1>
+                <p data-aos="fade-up" data-aos-delay="400">W miejscu gdzie znajdziesz najlepsze fryzury w mieście!</p>
+                <a data-aos="fade-up" data-aos-delay="600" href="#aboutus" type="button"
+                    class="btn btn-outline-light">Poznaj nas!</a>
             </div>
-            <a href="#aboutus"><i class="fas fa-chevron-down"></i></a>
+            <a href="#aboutus"><i class="fas fa-chevron-down bounce-top"></i></a>
 
         </div>
     </header>
@@ -69,32 +71,32 @@
                 <div class="underline"></div>
 
                 <div class="row cards">
-                    <div class="col-sm-6 col-md-4 text-center">
+                    <div class="col-sm-6 col-md-4 text-center" data-aos="zoom-out" data-aos-delay="100">
                         <p><i class="fas fa-calendar-alt"></i></p>
                         <p class="aboutus-card-title mb-1">dni otwarcia</p>
                         <p class="aboutus-card-text">Jesteśmy otwarci od poniedziałku do piątku</p>
                     </div>
-                    <div class="col-sm-6 col-md-4 text-center">
+                    <div class="col-sm-6 col-md-4 text-center" data-aos="zoom-out" data-aos-delay="200">
                         <p><i class="fas fa-clock"></i></p>
                         <p class="aboutus-card-title mb-1">godziny otwarcia</p>
                         <p class="aboutus-card-text">Jesteśmy otwarci w godzinach od 8:00 do 16:00</p>
                     </div>
-                    <div class="col-sm-6 col-md-4 text-center">
+                    <div class="col-sm-6 col-md-4 text-center" data-aos="zoom-out" data-aos-delay="300">
                         <p><i class="fas fa-paw"></i></p>
                         <p class="aboutus-card-title mb-1">przyjazne dla zwierząt</p>
                         <p class="aboutus-card-text">Możesz do nas przyjść ze swoim pupilem</p>
                     </div>
-                    <div class="col-sm-6 col-md-4 text-center">
+                    <div class="col-sm-6 col-md-4 text-center" data-aos="zoom-out" data-aos-delay="400">
                         <p><i class="fas fa-male"></i></p>
                         <p class="aboutus-card-title mb-1">fryzury męskie</p>
                         <p class="aboutus-card-text">Robimy męskie fryzury</p>
                     </div>
-                    <div class="col-sm-6 col-md-4 text-center">
+                    <div class="col-sm-6 col-md-4 text-center" data-aos="zoom-out" data-aos-delay="500">
                         <p><i class="fas fa-female"></i></p>
                         <p class="aboutus-card-title mb-1">fryzury damskie</p>
                         <p class="aboutus-card-text">Robimy damskie fryzury</p>
                     </div>
-                    <div class="col-sm-6 col-md-4 text-center">
+                    <div class="col-sm-6 col-md-4 text-center" data-aos="zoom-out" data-aos-delay="600">
                         <p><i class="fas fa-child"></i></p>
                         <p class="aboutus-card-title mb-1">fryzury dla dzieci</p>
                         <p class="aboutus-card-text">Robimy fryzury dla dzieci</p>
@@ -112,17 +114,17 @@
                 <div class="underline"></div>
 
                 <div class="row hero-cards ">
-                    <div class="col-sm-12 col-md-4 text-center">
+                    <div class="col-sm-12 col-md-4 text-center" data-aos="fade-up" data-aos-delay="200">
                         <p class="aboutus-card-title ">strzyżenie</p>
                         <p><i class="fas fa-cut"></i></p>
                         <p class="aboutus-card-text">Profesjonalne strzyżenie!</p>
                     </div>
-                    <div class="col-sm-12 col-md-4 text-center">
+                    <div class="col-sm-12 col-md-4 text-center" data-aos="fade-up" data-aos-delay="300">
                         <p class="aboutus-card-title card-fix">koloryzacja</p>
                         <p><i class="fas fa-tint"></i></p>
                         <p class="aboutus-card-text">Koloryzacja włosów naturalnymi farbami!</p>
                     </div>
-                    <div class="col-sm-12 col-md-4 text-center">
+                    <div class="col-sm-12 col-md-4 text-center" data-aos="fade-up" data-aos-delay="200">
                         <p class="aboutus-card-title">stylizacja</p>
                         <p><i class="fas fa-sign-language"></i></p>
                         <p class="aboutus-card-text">Wspaniałe fryzury na życzenie!</p>
@@ -203,13 +205,13 @@
         </section>
 
         <!-- PRICES -->
-        <section id="prices" class="prices bg-light py-4">
+        <section id="prices" class="prices bg-light py-5">
             <div class="container">
                 <h2>Cennik</h2>
                 <div class="underline"></div>
 
                 <div class="prices-box">
-                    <div class="prices-items item1">
+                    <div class="prices-items item1" data-aos="flip-right" data-aos-delay="200">
                         <h4>męski pakiet</h4>
                         <hr>
                         <p>Spersonalizowana fryzura</p>
@@ -219,7 +221,7 @@
                         <p>Następna wizyta 15% taniej</p>
                         <button type="button" class="btn btn-secondary">45,99</button>
                     </div>
-                    <div class="prices-items item2">
+                    <div class="prices-items item2" data-aos="flip-right" data-aos-delay="400">
                         <h4>pakiet dla kobiet</h4>
                         <hr>
                         <p>Spersonalizowana długość</p>
@@ -229,7 +231,7 @@
                         <p>Koloryzacja 20% taniej</p>
                         <button type="button" class="btn btn-secondary">49,99</button>
                     </div>
-                    <div class="prices-items item3">
+                    <div class="prices-items item3" data-aos="flip-right" data-aos-delay="600">
                         <h4>koloryzacja</h4>
                         <hr>
                         <p>Naturalne barwniki</p>
@@ -257,7 +259,8 @@
                 <div class="underline"></div>
                 <div class="team-cards team-carousel">
                     <div class="card mx-3">
-                        <img src="./img/team/03_1920.jpg" class="card-img-top" alt="...">
+                        <img src="./img/team/03_1920.jpg" class="card-img-top d-none d-xl-block" alt="vincent">
+                        <img src="./img/team/03_640.jpg" class="card-img-top d-xl-none" alt="vincent">
                         <div class="card-body">
                             <h5 class="card-title">Vincent</h5>
                             <p class="card-text">Właściciel salonu, prawdziwy mistrz w swoim fachu.</p>
@@ -271,7 +274,8 @@
                         </div>
                     </div>
                     <div class="card mx-3">
-                        <img src="./img/team/01_1920.jpg" class="card-img-top" alt="...">
+                        <img src="./img/team/01_1920.jpg" class="card-img-top d-none d-xl-block" alt="agnieszka">
+                        <img src="./img/team/01_640.jpg" class="card-img-top d-xl-none" alt="agnieszka">
                         <div class="card-body">
                             <h5 class="card-title">Agnieszka</h5>
                             <p class="card-text">Najdłuższa stażem, prawdziwa wirtuozka fryzjerstwa.</p>
@@ -285,7 +289,8 @@
                         </div>
                     </div>
                     <div class="card mx-3">
-                        <img src="./img/team/02_1920.jpg" class="card-img-top" alt="...">
+                        <img src="./img/team/02_1920.jpg" class="card-img-top d-none d-xl-block" alt="marianna">
+                        <img src="./img/team/02_640.jpg" class="card-img-top d-xl-none" alt="marianna">
                         <div class="card-body">
                             <h5 class="card-title">Marianna</h5>
                             <p class="card-text">Utalentowana fryzjerka, specjalistka od koloryzacji.</p>
@@ -299,7 +304,8 @@
                         </div>
                     </div>
                     <div class="card mx-3">
-                        <img src="./img/team/04_1920.jpg" class="card-img-top" alt="...">
+                        <img src="./img/team/04_1920.jpg" class="card-img-top d-none d-xl-block" alt="kondzio">
+                        <img src="./img/team/04_640.jpg" class="card-img-top d-xl-none" alt="kondzio">
                         <div class="card-body">
                             <h5 class="card-title">Kondzio</h5>
                             <p class="card-text">Najmłodszy w zespole, uwielbia zwariowane fryzury!</p>
@@ -313,7 +319,8 @@
                         </div>
                     </div>
                     <div class="card mx-3">
-                        <img src="./img/team/05_1920.jpg" class="card-img-top" alt="...">
+                        <img src="./img/team/05_1920.jpg" class="card-img-top d-none d-xl-block" alt="fabio">
+                        <img src="./img/team/05_640.jpg" class="card-img-top d-xl-none" alt="fabio">
                         <div class="card-body">
                             <h5 class="card-title">Fabio</h5>
                             <p class="card-text">Nie ma dla niego rzeczy niemożliwych, fryzjerski wariat!</p>
@@ -337,34 +344,34 @@
                 <div class="underline"></div>
 
                 <div class="row text-center">
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-2 achiev-item">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-2 achiev-item" data-aos="zoom-in" data-aos-delay="300">
                         <i class="fas fa-thumbs-up"></i>
                         <p class="stats">100%</p>
                         <p>zadowolonych klientów</p>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-2 achiev-item">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-2 achiev-item" data-aos="zoom-in" data-aos-delay="100">
                         <i class="ti ti-certificate"></i>
                         <p class="stats">67</p>
                         <p>uzyskanych certyfikatów</p>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-2 achiev-item">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-2 achiev-item" data-aos="zoom-in" data-aos-delay="500">
                         <i class="fas fa-trophy"></i>
                         <p class="stats">17</p>
                         <p>zdobytych nagród</p>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-2 achiev-item">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-2 achiev-item" data-aos="zoom-in" data-aos-delay="200">
                         <i class="fas fa-share-alt"></i>
                         <p class="stats">45,000</p>
                         <p>fanów w social media</p>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-2 achiev-item">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-2 achiev-item" data-aos="zoom-in" data-aos-delay="400">
                         <i class="fas fa-home"></i>
-                        <p class="stats">3</p>
+                        <p class="stats">2</p>
                         <p>salony w mieście</p>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-2 achiev-item">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-2 achiev-item" data-aos="zoom-in" data-aos-delay="600">
                         <i class="ti ti-cut"></i>
-                        <p class="stats">82</p>
+                        <p class="stats">24</p>
                         <p>autorskie fryzury</p>
                     </div>
                 </div>
@@ -407,6 +414,10 @@
 
     </main>
 
+    <footer class="bg-dark text-light text-center py-4">
+        <p class="m-0">&copy; 2021 | Vinncenzo</p>
+    </footer>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -416,6 +427,8 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/slick.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/aos.js"></script>
     <script src="./js/script.js"></script>
 </body>
 

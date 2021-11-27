@@ -8,6 +8,14 @@ nav {
 	}
 }
 
+header {
+	.hero-img {
+		.fa-chevron-down {
+			bottom: 25px;
+		}
+	}
+}
+
 main {
 	.card-fix {
 		transform: translateX(0px);
