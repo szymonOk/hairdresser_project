@@ -166,11 +166,6 @@ nav .navbar-collapse {
   padding-left: 10px;
 }
 
-nav .navbar-toggler:focus {
-  -webkit-box-shadow: 0 0 0 0px;
-          box-shadow: 0 0 0 0px;
-}
-
 nav .navbar-brand {
   color: #d6d6e2;
   -webkit-transition: color 0.4s;
