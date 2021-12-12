@@ -217,7 +217,6 @@ header .hero-img {
   background-image: url("../img/banner640.jpg");
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
   z-index: 0;
 }
 
@@ -424,6 +423,7 @@ main .prices .prices-box .prices-items {
   width: 350px;
   text-align: center;
   padding: 25px 10px;
+  margin-bottom: 40px;
   background-color: #fff;
   -webkit-box-shadow: 5px 5px 5px rgba(49, 49, 49, 0.4);
           box-shadow: 5px 5px 5px rgba(49, 49, 49, 0.4);
@@ -459,16 +459,10 @@ main .prices .prices-box .prices-items h4 {
   color: #d10382;
 }
 
-main .prices .prices-box .prices-items:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
 main .team {
   position: relative;
   background-image: url("../img/team/bg_1920.jpg");
   background-size: cover;
-  background-attachment: fixed;
   z-index: 0;
 }
 
@@ -578,8 +572,6 @@ main .contact {
   position: relative;
   background-image: url("../img/contact_640.jpg");
   background-size: cover;
-  background-attachment: fixed;
-  background-position: bottom;
   z-index: 0;
   color: #d6d6e2;
 }

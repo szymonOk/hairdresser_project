@@ -6,12 +6,24 @@ nav .navbar-collapse {
   border: none;
 }
 
+header .hero-img {
+  background-attachment: fixed;
+}
+
 header .hero-img .fa-chevron-down {
   bottom: 25px;
+}
+
+main .team {
+  background-attachment: fixed;
 }
 
 main .card-fix {
   -webkit-transform: translateX(0px);
           transform: translateX(0px);
+}
+
+main .contact {
+  background-attachment: fixed;
 }
 /*# sourceMappingURL=large.css.map */

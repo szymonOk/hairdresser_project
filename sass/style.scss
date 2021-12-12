@@ -98,7 +98,6 @@ header {
 		background-image: url('../img/banner640.jpg');
 		background-position: center;
 		background-size: cover;
-		background-attachment: fixed;
 		z-index: 0;
 
 		.hero-bg {
@@ -293,6 +292,7 @@ main {
 				width: 350px;
 				text-align: center;
 				padding: 25px 10px;
+				margin-bottom: 40px;
 				background-color: #fff;
 				box-shadow: 5px 5px 5px rgba(49, 49, 49, 0.4);
 				transition: transform 0.3s 0.01s;
@@ -323,10 +323,6 @@ main {
 					color: $main-color;
 				}
 			}
-
-			.prices-items:hover {
-				transform: scale(1.05);
-			}
 		}
 	}
 
@@ -335,7 +331,6 @@ main {
 		position: relative;
 		background-image: url('../img/team/bg_1920.jpg');
 		background-size: cover;
-		background-attachment: fixed;
 		z-index: 0;
 
 		.team-bg-shadow {
@@ -429,8 +424,6 @@ main {
 		position: relative;
 		background-image: url('../img/contact_640.jpg');
 		background-size: cover;
-		background-attachment: fixed;
-		background-position: bottom;
 		z-index: 0;
 		color: $font-color;
 
